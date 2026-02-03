@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.3">
+  <diagram name="ページ1" id="1v3sa6IEZE6XbbrhQLid">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JfFeOA4U3hLige84W9IZ-5" edge="1" parent="1" source="JfFeOA4U3hLige84W9IZ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="JfFeOA4U3hLige84W9IZ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JfFeOA4U3hLige84W9IZ-6" connectable="0" parent="JfFeOA4U3hLige84W9IZ-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="init or sync" vertex="1">
+          <mxGeometry relative="1" x="0.1333" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JfFeOA4U3hLige84W9IZ-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ユーザーA" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="JfFeOA4U3hLige84W9IZ-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ユーザーB" vertex="1">
+          <mxGeometry height="60" width="120" x="390" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="JfFeOA4U3hLige84W9IZ-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ユーザーC" vertex="1">
+          <mxGeometry height="60" width="120" x="600" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="JfFeOA4U3hLige84W9IZ-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Jitera&lt;div&gt;(プロジェクトAがアップロードされている)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="150" x="185" y="-30" as="geometry" />
+        </mxCell>
+        <mxCell id="JfFeOA4U3hLige84W9IZ-7" edge="1" parent="1" source="JfFeOA4U3hLige84W9IZ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="JfFeOA4U3hLige84W9IZ-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="310" as="sourcePoint" />
+            <mxPoint x="460" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JfFeOA4U3hLige84W9IZ-8" connectable="0" parent="JfFeOA4U3hLige84W9IZ-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="connect or sync" vertex="1">
+          <mxGeometry relative="1" x="0.1333" y="-2" as="geometry">
+            <mxPoint x="-2" y="60" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JfFeOA4U3hLige84W9IZ-9" edge="1" parent="1" source="JfFeOA4U3hLige84W9IZ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="JfFeOA4U3hLige84W9IZ-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="340" as="sourcePoint" />
+            <mxPoint x="450" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JfFeOA4U3hLige84W9IZ-10" connectable="0" parent="JfFeOA4U3hLige84W9IZ-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="connect or sync" vertex="1">
+          <mxGeometry relative="1" x="0.1333" y="-2" as="geometry">
+            <mxPoint x="50" y="82" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JfFeOA4U3hLige84W9IZ-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="1. 最初にinitでプログラムをアップロード&lt;div&gt;ユーザーA上にあるプロジェクトAフォルダをアップロード&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;以降はjitera syncで都合プログラムをアップロード&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="130" x="110" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="JfFeOA4U3hLige84W9IZ-12" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="プロジェクトA&amp;nbsp;&lt;div&gt;(ローカル作業、ソース管理サーバーからコピー)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="200" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="JfFeOA4U3hLige84W9IZ-13" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="プロジェクト A" vertex="1">
+          <mxGeometry height="80" width="120" x="30" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="JfFeOA4U3hLige84W9IZ-14" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="プロジェクトA&lt;div&gt;(ローカル作業&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;、ソース管理サーバーからコピー&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="390" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="JfFeOA4U3hLige84W9IZ-15" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="プロジェクトB&lt;div&gt;(ローカル作業&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;、ソース管理サーバーからコピー&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="600" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="JfFeOA4U3hLige84W9IZ-16" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="プロジェクト B" vertex="1">
+          <mxGeometry height="80" width="120" x="30" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="JfFeOA4U3hLige84W9IZ-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="2. connectでプロジェクトAがアップロードされているJiteraプロジェクトと連携。syncを連携したプロジェクトに対して実行できるようになる" vertex="1">
+          <mxGeometry height="60" width="130" x="460" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="JfFeOA4U3hLige84W9IZ-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="2. connectでプロジェクトAがアップロードされているJiteraプロジェクトと連携。syncを連携したプロジェクトに対して実行できるようになる&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;この時プロジェクトBを作業しているフォルダでsyncを実行するとjitera上のプロジェクトAが丸ごとプロジェクトBに入れ替わる。なので、ローカルで作業している時は、プロジェクトAを開いた状態で作業する必要がある&lt;/div&gt;" vertex="1">
+          <mxGeometry height="260" width="330" x="710" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JfFeOA4U3hLige84W9IZ-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ソース管理サーバー" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
